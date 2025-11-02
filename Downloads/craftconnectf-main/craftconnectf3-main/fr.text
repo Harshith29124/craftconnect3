@@ -1,0 +1,27 @@
+craftconnect-frontend/
+├── public/
+│   └── index.html                    [FILE 37]
+├── src/
+│   ├── components/
+│   │   ├── HomePage.js               [FILE 48] 
+│   │   ├── ProcessingPage.js         [FILE 49]
+│   │   ├── BusinessInsights.js       [FILE 28]
+│   │   ├── Header.js                 [FILE 56]
+│   │   └── WhatsAppModule.js         [FILE 32]
+│   ├── App.js                        [FILE 47]
+│   ├── App.css                       [FILE 58]
+│   ├── index.js                      [FILE 55]
+│   └── index.css                     [FILE 57]
+└── package.json                      [FILE 46]
+
+craftconnect-backend/
+├── src/
+│   ├── controllers/
+│   │   └── aiBusinessAnalyzer.js     [YOUR EXISTING FILE]
+│   ├── models/
+│   │   └── BusinessAnalysis.js       [FILE 59]
+│   └── config/
+│       └── service-account-key.json  [YOUR GOOGLE CLOUD KEY]
+├── server.js                         [FILE 51]
+├── package.json                      [FILE 50]
+└── .env                             [FILE 52]

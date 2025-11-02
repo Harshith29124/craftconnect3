@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #ec6d13;
+  --primary-hover-color: #d8620f;
+  --secondary-color: #fef3e9;
+  --background-color: #FFFCF9;
+  --text-primary: #181411;
+  --text-secondary: #897261;
+  --border-color: #f4f2f0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  background: var(--background-color);
+  color: var(--text-primary);
+}
+
+/* Optional: stepper/legacy wrappers scoping to avoid interference */
+.view, .container, .recording-flow { all: unset; }
